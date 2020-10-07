@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <bits/stdc++.h> // this includes all header files
+using namespace std; 
 
 #define si(x) scanf("%d",&x)
 #define sf(x) scanf("%f",&x)
@@ -32,6 +32,7 @@ int main(int argc, char const *argv[])
     }
 
     mid_pos = 1+sz>>1;
+	// Here while loop is starting
     while(true){
         if(mid_pos==k){ break;  }
         else{   
